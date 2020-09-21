@@ -1,4 +1,5 @@
 // TODO 逻辑过长，嵌套过多，查一下splice的使用
+// TODO 当sections内items顺序不是index顺序时会有问题(内存泄漏)
 const inject = (items, sections) => {
     let currentIndex = 0;
     let result = [];
