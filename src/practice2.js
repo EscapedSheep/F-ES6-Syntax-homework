@@ -1,3 +1,4 @@
+// TODO 逻辑过长，嵌套过多，查一下splice的使用
 const inject = (items, sections) => {
     let currentIndex = 0;
     let result = [];
